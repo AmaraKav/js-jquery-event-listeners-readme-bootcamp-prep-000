@@ -17,8 +17,8 @@ function submitIt(){
 }
 
 function pressIt(){
-  $(document).on('keydown', function(){
-    
+  $('#typing').on('keydown', function(){
+    alert('Pressed G');
   });
 }
 
