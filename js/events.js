@@ -18,7 +18,7 @@ function submitIt(){
 
 function pressIt(){
   $('form').on('keydown', function(key){
-    if(key.which == 071){
+    if(key.which == 71){
       alert('Pressed G');
     }
   });
